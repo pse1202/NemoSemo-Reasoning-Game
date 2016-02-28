@@ -3,8 +3,6 @@
     copyright (c) 2016. 01. 15 , jaemin.lee.email@gmail.com
     
 """
-import socket
-#import thread
 from GraphMaking import *
 class GamePlay(GraphMaking): # Inheritance 
     def CheckGraph(self,UserMatrix = None,CompareMatrix = None):
